@@ -1,6 +1,6 @@
-James Goodwin <br> 
-1/16/22 <br> 
-Lab Report Week 1
+&emsp;James Goodwin <br> 
+&emsp;1/16/22 <br> 
+&emsp;Lab Report Week 1
 
 
 1. To start, you have to download VSCode. I already had this installed, so I skipped this step. Here is a picture of VSCode open. 
