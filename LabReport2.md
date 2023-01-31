@@ -93,7 +93,7 @@ public void testReverseInPlaceSymmetricValues() {
 The symptom of running the two tests:
 ![Image](https://i.imgur.com/ZjheVey.png)
 
-Code before fixing:
+Code before fixing(The bug is that there is not a second array to copy over the elements):
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
