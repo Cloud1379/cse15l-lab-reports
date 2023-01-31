@@ -112,6 +112,6 @@ static void reverseInPlace(int[] arr) {
     arr = arrCopy;
   }
 ```
-#Part 3
+# Part 3
 The most interesting thing that I learned was how to set up a server. I learned how to get the path and the query in order to change the site according
 to the inputs in the path. I also learned about the relevance of port numbers. 
