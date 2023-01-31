@@ -53,7 +53,7 @@ class StringServer {
     }
 }
 ```
-<br>
+
 ![Image](https://i.imgur.com/fGq3yRc.png)
 <br>
 In this screenshot, the methods handleRequest and main are called. The relevant arguments are "Hello" which is the messsage being added, "/add-message" to 
