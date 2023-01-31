@@ -11,7 +11,7 @@ To remotely connect, you must set up your account. Figure out your account name 
 
 ![Image](https://i.imgur.com/RRN6BUz.png)
 
-Now that you are connected, you can try some commands by simply typing them into the terminal and hitting enter. Try out cs, ls, pwd, mkdir, and cp. It should look something like this.
+Now that you are connected, you can try some commands by simply typing them into the terminal and hitting enter. cd changes the command directory, ls lists out the files in the current directory, pwd displays the full path to the current directory, and mkdir makes a new empty working directory. 
 
-![Image](https://i.imgur.com/fWPZkeO.png)
+![Image](https://i.imgur.com/9VH8tYZ.png)
 
