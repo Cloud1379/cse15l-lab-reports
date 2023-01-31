@@ -58,7 +58,7 @@ class StringServer {
 
 In this screenshot above, the methods handleRequest and main are called. The relevant arguments are "Hello" which is the messsage being added, "/add-message" to 
 signify that a string is being added, "=" to split up the parameters, and "s" to represent the first parameter. There is also the entire url, which is 
-http://localhost:4000/add-message?s=Hello In this class, I have an arrayList of strings, and in this screenshot "Hello" is being added to the end of it. 
+`http://localhost:4000/add-message?s=Hello` In this class, I have an arrayList of strings, and in this screenshot "Hello" is being added to the end of it. 
 This arrayList is then copied over to a single string with multiple lines and returned. In this case, since only "Hello" has been added so far, only "Hello" 
 shows up on the screen. 
 
@@ -66,11 +66,11 @@ shows up on the screen.
 
 In this screenshot above, the methods handleRequest and main are called. The relevant arguments are "How are you" which is the messsage being added, 
 "/add-message" to signify that a string is being added, "=" to split up the parameters, and "s" to represent the first parameter. There is also the entire 
-url, which is http://localhost:4000/add-message?s=How%20are%20you In this class, I have an arrayList of strings, and in this screenshot "How are you" is 
+url, which is `http://localhost:4000/add-message?s=How%20are%20you` In this class, I have an arrayList of strings, and in this screenshot "How are you" is 
 being added to the end of it. This arrayList is then copied over to a single string with multiple lines and returned. In this case, now there are two items in the arrayList, "Hello" and "How are you" so both of them are shown on the screen. 
 
 # Part 2
-I have chosen the method reverseInPlace in the file ArrayExamples.java. Here is a failure-inducing input:
+I have chosen the method reverseInPlace in the file `ArrayExamples.java` Here is a failure-inducing input:
 ```
 @Test 
 public void testReverseInPlaceUnequalValues() {
