@@ -54,7 +54,7 @@ I tried two different lines to get the two different exit status possibilities.
 ```
 
 ```
-[cs15lwi23ade@ieng6-203]:skill-demo1-data:425$ grep "aaiowfivuowt" written_2/* -r
+[cs15lwi23ade@ieng6-203]:skill-demo1-data:425$ grep "aaiowfivuowt" written_2/* -r -q
 [cs15lwi23ade@ieng6-203]:skill-demo1-data:426$ echo $?
 1
 ```
