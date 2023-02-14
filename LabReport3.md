@@ -5,7 +5,7 @@ Lab Report 3
 For this lab report, I have chosen to focus on the `grep` command. I found all of the commands used through ChatGPT by inputting "Can you give examples of `grep` command 
 line options?
 
-#Example 1
+# Example 1
 
 The first option that I used was `-i` which ignored case disctinctions in the pattern and the input files. 
 
@@ -27,7 +27,7 @@ I then tried it on a single file.
 4
 ```
 
-#Example 2
+# Example 2
 
 The next option that I tried was `-A` which printed out the given number of lines of trailing context after each matching line. 
 ```
@@ -43,7 +43,7 @@ In Puerto Vallarta one fiesta that stands out from the rest is not a traditional
 Nightlife
 ```
 
-#Example 3
+# Example 3
 
 The next option that I tried was `-q` which is used to run `grep` in quiet mode and only returns an exit status that indicates whether any lines were selected or not.
 I tried two different lines to get the two different exit status possibilities. 
@@ -59,7 +59,7 @@ I tried two different lines to get the two different exit status possibilities.
 1
 ```
 
-#Example 4
+# Example 4
 
 The last option that I tried was `--with-filename` which displays the filename before the matching lines. 
 ```
