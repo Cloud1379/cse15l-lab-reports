@@ -7,7 +7,8 @@ line options?
 
 # Option 1
 
-The first option that I used was `-i` which ignored case disctinctions in the pattern and the input files. 
+The first option that I used was `-i` which ignored case disctinctions in the pattern and the input files. This is useful if you are looking for a word and don't
+care about its capitalization. 
 
 I first tried using it to search through `written_2/*` for the word "Paella." When I searched without using `-i` it gave me two results, and when I used `-i` it gave
 me four. 
@@ -29,7 +30,8 @@ I then tried it on a single file.
 
 # Option 2
 
-The next option that I tried was `-A` which printed out the given number of lines of trailing context after each matching line. 
+The next option that I tried was `-A` which printed out the given number of lines of trailing context after each matching line. This is useful if you want to know
+about the context surrounding the search term. 
 ```
 [cs15lwi23ade@ieng6-203]:skill-demo1-data:417$ grep "floreador" written_2/* -r -A 1
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:The exception is in Acapulco. The Centro de Convenciones offers arguably the best Fiesta Mexicana in the country, and is the closest you’ll come to an authentic display of Mexican culture and dance. Along with beautifully performed folkloric dances from all over Mexico, you’ll witness a pre-Hispanic ceremony called Los Voladores de Papantla, which represents an invocation to the four cardinal points and a prayer for fertility; a floreador roping exhibition; and the vibrant sounds of the mariachi. This fiesta is held every Monday, Wednesday, and Friday from 7 to 10pm. Reservations are recommended, to ensure a good table. For reservations, call Tel. (7) 484-7046.
@@ -46,7 +48,8 @@ Nightlife
 # Option 3
 
 The next option that I tried was `-q` which is used to run `grep` in quiet mode and only returns an exit status that indicates whether any lines were selected or not.
-I tried two different lines to get the two different exit status possibilities. 
+I tried two different lines to get the two different exit status possibilities. This is useful to figure out if the file contains the search term or not without
+many lines of output. 
 ```
 [cs15lwi23ade@ieng6-203]:skill-demo1-data:423$ grep "the" written_2/* -r -q
 [cs15lwi23ade@ieng6-203]:skill-demo1-data:424$ echo $?
@@ -61,7 +64,8 @@ I tried two different lines to get the two different exit status possibilities.
 
 # Option 4
 
-The last option that I tried was `--with-filename` which displays the filename before the matching lines. 
+The last option that I tried was `--with-filename` which displays the filename before the matching lines. This is useful if you also want to know where to find
+the file that contains the search term. 
 ```
 [cs15lwi23ade@ieng6-203]:skill-demo1-data:428$ grep "Lucayans" written_2/* -r --with-filename
 written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
