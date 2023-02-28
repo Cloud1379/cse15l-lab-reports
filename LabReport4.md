@@ -1,6 +1,6 @@
 James Goodwin <br>
 2/27/23 <br>
-Lab Report 3
+Lab Report 4
   
 # Step 4
 ![Image](https://i.imgur.com/QPiVHZZ.png)
