@@ -87,7 +87,7 @@ I then tried looking through files less than one kilobyte.
 [cs15lwi23ade@ieng6-203]:docsearch:556$ find -size -1k
 ./travel_guides_sizes.txt
 ```
-For this command, I added `-1k`. The `-` symbol is to look for files smaller than the given size. the `1k` was to search for files smaller than 1 kilotype. 
+For this command, I added `-1k`. The `-` symbol is to look for files smaller than the given size. the `1k` was to search for files smaller than 1 kilobyte. 
 I only found a single file that was smaller than the given size parameter. 
 
 # Option 3
