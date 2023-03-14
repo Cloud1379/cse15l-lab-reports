@@ -94,7 +94,7 @@ I only found a single file that was smaller than the given size parameter.
 The next option that I tried was `-maxdepth`. I had already used this in previous commands, but I will now look into it further. This option specifies how far into 
 the directories that `-find` will go. 
 
-I first tried looking through `-docsearch` for directory-type files with a max depth of 1. 
+I first tried looking through `docsearch` for directory-type files with a max depth of 1. 
 ```
 [cs15lwi23ade@ieng6-203]:docsearch:562$ find -maxdepth 1 -type d
 .
