@@ -61,6 +61,34 @@ This command looked through docserach to find all of the files that were of type
 When I first tried running this command, I didn't use `maxdepth` and it gave me entirely too many files because it also looked through the subdirectories. 
 
 # Option 2
+The next option that I tried out for the `-find` command was `size` which searches for files of a certain size. 
+
+I first tried looking through `docsearch` for files larger than 100 kilbytes. 
+```
+[cs15lwi23ade@ieng6-203]:docsearch:552$ find -size +100k
+./.git/objects/pack/pack-ba9aa0ef27cfbc0f5d71f559a5512073bc7458de.pack
+./lib/junit-4.13.2.jar
+./written_2/non-fiction/OUP/Berk/CH4.txt
+./written_2/non-fiction/OUP/Berk/ch2.txt
+./written_2/travel_guides/berlitz1/WhereToFrance.txt
+./written_2/travel_guides/berlitz1/WhereToIndia.txt
+./written_2/travel_guides/berlitz1/WhereToItaly.txt
+./written_2/travel_guides/berlitz1/WhereToJapan.txt
+./written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+./written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+./written_2/travel_guides/berlitz2/China-WhereToGo.txt
+./written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+```
+For this command, I added `+100k`. The `+` symbol is too look for files larger than the given size. The `100k` was to search for files larger than 100 kilobytes. 
+This command could be useful for searching for which files take up the most system storage. 
+
+I then tried looking through files less than one kilobyte. 
+```
+[cs15lwi23ade@ieng6-203]:docsearch:556$ find -size -1k
+./travel_guides_sizes.txt
+```
+For this command, I added `-1k`. The `-` symbol is to look for files smaller than the given size. the `1k` was to search for files smaller than 1 kilotype. 
+I only found a single file that was smaller than the given size parameter. 
 
 # Option 3
 
