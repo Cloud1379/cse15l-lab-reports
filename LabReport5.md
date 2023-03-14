@@ -63,7 +63,7 @@ When I first tried running this command, I didn't use `maxdepth` and it gave me 
 # Option 2
 The next option that I tried out for the `-find` command was `size` which searches for files of a certain size. 
 
-I first tried looking through `docsearch` for files larger than 100 kilbytes. 
+I first tried looking through `docsearch` for files larger than 100 kilobytes. 
 ```
 [cs15lwi23ade@ieng6-203]:docsearch:552$ find -size +100k
 ./.git/objects/pack/pack-ba9aa0ef27cfbc0f5d71f559a5512073bc7458de.pack
