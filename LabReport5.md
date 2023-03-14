@@ -26,7 +26,7 @@ written_2/travel_guides/berlitz2
 ```
 This command looked through `written_2/*` and found all files that would be considered directories. It also searched through all subfiles within `written_2/*`. This
 command is useful if you want to distinguish between which files are regular ones and which ones are directories. 
-<br>
+
 I then tried using it to search through docsearch for files of the type `f` for regular files. I also used the `-maxdepth` option so that I wouldn't also serach through
 subfiles. 
 ```
