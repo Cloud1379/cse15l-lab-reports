@@ -91,5 +91,55 @@ For this command, I added `-1k`. The `-` symbol is to look for files smaller tha
 I only found a single file that was smaller than the given size parameter. 
 
 # Option 3
+The next option that I tried was `-maxdepth`. I had already used this in previous commands, but I will now look into it further. This option specifies how far into 
+the directories that `-find` will go. 
+
+I first tried looking through `-docsearch` for directory-type files with a max depth of 1. 
+```
+[cs15lwi23ade@ieng6-203]:docsearch:562$ find -maxdepth 1 -type d
+.
+./.git
+./lib
+./written_2
+```
+I executed this command by using the `find` command followed by `-maxdepth 1`. The `1` was to specify to only serach one level deep, and `-type d` was to specify 
+that only directories should be serached for. This command could be useful for specifying how deep within files that you want to actually look. 
+
+I then tried looking through the same directory for directory-type files with a max depth of 3. 
+```
+[cs15lwi23ade@ieng6-203]:docsearch:563$ find -maxdepth 2 -type d
+.
+./.git
+./.git/info
+./.git/hooks
+./.git/branches
+./.git/refs
+./.git/objects
+./.git/logs
+./lib
+./written_2
+./written_2/non-fiction
+./written_2/travel_guides
+```
+I executed this command by doing the same thing as the previous command, but with `3` instead of `1`. This allowed me to serach two more levels deep, and this gave 
+me more files that were considered directories. 
 
 # Option 4
+The last option that I tried was `-iname` which is the same as the `-name` command but is case-insensitive. 
+
+I first tried looking for the directory named `Non-fiction`
+```
+[cs15lwi23ade@ieng6-203]:docsearch:582$ find -iname Non-fiction
+./written_2/non-fiction
+```
+Technically, the directory `Non-fiction` doesn't exist, there is only `non-fiction`. However, since I used the option `-iname`, capitalization was not accounted for, 
+so I was able to get a result. This is useful if you do not remember the capitalization of a file name. 
+
+I then tried looking for the directory named `berk`. 
+```
+[cs15lwi23ade@ieng6-203]:docsearch:580$ find -iname berk
+./written_2/non-fiction/OUP/Berk
+```
+The directory named `berk` doesn't actually exist, only `Berk` does. However, since I used `-iname`, I was able to find the directory when not accounting for 
+capitalization. 
+
