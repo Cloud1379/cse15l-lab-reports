@@ -18,8 +18,8 @@ Keys pressed: `cd la<tab><enter>`, `<Ctrl+v><enter>`, `<Ctrl+v><enter>` <br><br>
 First, I changed my directory into lab7. I used `<tab>` in order to do less typing. Then I accessed the 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command by pasting it in. Then I accessed the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command by also pasting it in. 
 
-# Step 7
-![Image](https://i.imgur.com/h0acrab.png)
+# Step 7 
+![Image](https://i.imgur.com/h0acrab.png) <br>
 Keys pressed: `<Ctrl+v><enter>`, `<trackpad scroll><right>(12x)<backspace><2>`,`<Ctrl+x><enter><Ctrl+o>` <br><br>
 First, I pasted in the command to enter nano, `nano ListExamples.java`. Then, I used my laptop's trackpad to scroll down to 
 line 43, which said `index1 += 1;` I then pressed `right` 12 times, and replaced the 1 with a 2. To save, I 
