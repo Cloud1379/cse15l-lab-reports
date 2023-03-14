@@ -26,11 +26,11 @@ line 43, which said `index1 += 1;` I then pressed `right` 12 times, and replaced
 pressed `<Ctrl+x>` and then hit enter, and to exit, I pressed `<Ctrl+o>`. 
 
 # Step 8
-![Image](https://i.imgur.com/GDe5iJT.png)
+![Image](https://i.imgur.com/GDe5iJT.png) <br>
 Keys pressed: `<up><up><up><enter>`, `<up><up><up><enter>` <br><br>
 To run the tests, I just had to access the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command, which was 3 up in the search history, so I used the up arrow to access it. Then I accessed the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command which was also 3 up in the search history, so I used the up arrow again to access it. 
 
 # Step 9
-![Image](https://i.imgur.com/yUY7OWL.png)
+![Image](https://i.imgur.com/yUY7OWL.png) <br>
 Keys pressed: `git add .`, `<Ctrl+v><enter>`, `<Ctrl+v><enter>` <br><br>
 First, I typed in the command `git add .` to prepare to commit. Then, I pasted in the command `git commit -m lab7` in order to commit the change in my code. Finally, to push the command to my Github account, I pasted in the command `git push  git@github.com:Cloud1379/lab7.git` 
