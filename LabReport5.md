@@ -102,7 +102,7 @@ I first tried looking through `docsearch` for directory-type files with a max de
 ./lib
 ./written_2
 ```
-I executed this command by using the `find` command followed by `-maxdepth 1`. The `1` was to specify to only serach one level deep, and `-type d` was to specify 
+I executed this command by using the `find` command followed by `-maxdepth 1`. The `1` was to specify to only search one level deep, and `-type d` was to specify 
 that only directories should be serached for. This command could be useful for specifying how deep within files that you want to actually look. 
 
 I then tried looking through the same directory for directory-type files with a max depth of 3. 
